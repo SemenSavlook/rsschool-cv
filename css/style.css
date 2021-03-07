@@ -1,0 +1,145 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: 'Noto Sans JP', sans-serif;
+	line-height: normal;
+	color: 444;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	color: #42b7f3;
+}
+
+p {
+	margin: 12px 0px;
+}
+
+ul, li{
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	height: 180px;
+	display: flex;
+	align-items: center;
+	background-color: #2d3236;
+}
+
+footer {
+	height: 80px;
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+	background-color: #2d3236;
+}
+
+section {
+	margin-top: 35px;
+}
+
+h1 {
+	line-height: 50px;
+	margin-left: 50px;
+	font-size: 48px;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+a {
+	font-weight: 700;
+}
+
+hr {
+	margin: 15px 0px;
+}
+
+h1 span {
+	color: white;
+}
+
+.hidden {
+	display: none;
+}
+
+.main-wrapper {
+	margin: 0 auto;
+	padding: 0px 20px;
+	width: 800px;
+	display: flex;
+	align-items: center;
+}
+
+.shaddow {
+	box-shadow: 1px 1px 6px 2px rgba(149, 149, 149, 0.1);
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+.w100prc {
+	width: 100%;
+}
+
+.highlighted {
+	margin: 0px -20px 0px -20px;
+	padding: 5px 20px;
+	background-color: #f6f8fa;
+}
+
+.gray-highlite {
+	font-weight: 300;
+	margin-right: -20px;
+	background-color: #f1f1f1;
+	text-align: center;
+}
+
+.courses {
+	margin: 20px 0px;
+}
+
+.skills {
+	background-color: #f6f8fa;
+	margin: 0px -20px 0px -20px;
+	margin-top: 0px;
+	padding: 10px 20px;
+}
+
+ul {
+	padding-left: 0px;
+	margin-left: 20px;
+}
+
+ul li {
+	margin: 7px 0px;
+}
+
+footer .main-wrapper {
+	justify-content: space-between;
+	padding: 0px;
+}
+
+footer div {
+	display: flex;
+	font-weight: 700;
+	color: #fff;
+}
+
+footer img {
+	max-height: 25px;
+	margin-right: 10px;
+}
